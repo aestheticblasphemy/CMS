@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Base Theme Preview</title>
+<link href="../style/base.css" rel="stylesheet" type="text/css" />
+<script src="/_lib/_scripts/jquery.min.js"></script>
+<script src="/_lib/_scripts/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/_lib/_scripts/jquery-ui.css" type="text/css" />
+<script type="text/javascript" src="../slider.js"> </script>
+</head>
+
+<body>
+<?php
+	require_once "/_lib/_base/basics.php";
+?>
+       <!-- Sticky Start -->
+	<div class="sticky">
+    	<div class="networking">
+        	<ul class="social">
+            	<li>{Facebook}</li>
+                <li>{Twitter}</li>
+                <li>{Google+}</li>
+                <li>{Pinterest}</li>
+                <li>{RSS}</li>
+           	</ul>
+        </div>
+            <div class="login">
+            	<form method="post" action="">
+            		<table>
+                    	<tr><th>e-mail</th><td><input type="email"  name="email"/></td><th>Password</th><td><input type="password" name="password" /></td><td><input type="submit" value="Login" name="action"/></td></tr>
+               		</table>
+                </form>
+            </div>
+       </div>
+       <!-- Sticky End -->
+<!-- Header Start -->
+<div class="header">
+	       <!-- Site Title Start -->
+           <h1>Aesthetic Blasphemy</h1>
+	       <!-- Site Title End -->           
+	       <!-- Site Tagline Start --> 
+           <h3>A Million Little Things</h3>          
+	       <!-- Site Tagline End -->
+  	       <!-- Navbar Start -->
+           <div class="navbar">
+           		<ul class="navigation">
+                	<li>Home</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                </ul>
+           </div>           
+  	       <!-- Navbar End -->                      
+  	       <!-- Picture Slideshow Start -->
+			<div class="slideshow-wrapper">
+            	<div class="slideshow" id="slideshow">				
+                    <img class="slides" id="slide0" src="/_img/Testing/1_1.jpg" class="slider_img" />
+                    <img class="slides" id="slide1" src="/_img/Testing/2_2.jpg" class="slider_img" />
+                    <img class="slides" id="slide2" src="/_img/Testing/3_3.jpg" class="slider_img" />
+                    <img class="slides" id="slide3" src="/_img/Testing/4_4.jpg" class="slider_img" />
+                    
+                    <div class="slide-controls">
+      					<div class="slide-move prev" data-target="prev">&lsaquo;</div>
+      					<div class="slide-move next" data-target="next">&rsaquo;</div>
+        				<ul class="pager_list"></ul>                    
+                    </div>
+				</div>
+                <script type="text/javascript">
+					$('#slideshow').easyFader({
+   						 slideDur: 5000,
+    					fadeDur: 800
+						});
+				</script>
+            </div>
+            <br/>
+  	       <!-- Picture Slideshow End -->                              
+</div>
+<!-- Header End -->
+
+<!-- Left Slider Start -->
+
+<!-- Left Slider End -->
+
+<!-- Content Part Start -->
+<div class="content">
+	<div class="entry">
+    	<div class="entry-author">
+        	Blasphemous Aesthete posted
+        </div>
+    	<!--Content title -->
+    	<h3 class="entry-title">Beauty and the Beast</h3>
+		<br/>	
+        <div class="entry-datetime" id="datetime">
+        	on June 1st, 2013 when the clock told 12:00 PM
+        </div>
+        <div class="entry-content alpha60">
+		<p>&nbsp;</p>
+
+<div style="text-align: center;"><img alt="Moon Girl" src="http://3.bp.blogspot.com/-RwnOyHl3Oks/UDkHk0VEs8I/AAAAAAAAGOg/RjgIEYoZVso/s400/5713009.jpg" /></div>
+
+<p><span style="color:rgb(0, 0, 0); font-family:consolas">You&#39;re beautiful, and I cannot trust you with hand picking beautiful things for me. The fault is not yours though, but that my view of beauty is forever skewed, and look who is responsible.</span><br />
+&nbsp;</p>
+
+<div style="color: rgb(0, 0, 0); font-family: Consolas; line-height: 18px; text-align: center;"><strong><em>You!&nbsp;</em></strong></div>
+
+<p><br />
+<span style="color:rgb(0, 0, 0); font-family:consolas">And why I cannot trust you with choosing beauty? Because you see everything and find it beautiful. I don&#39;t and I am helpless when you do it, I am.</span><br />
+&nbsp;</p>
+
+<div style="color: rgb(0, 0, 0); font-family: Consolas; line-height: 18px; text-align: center;"><em><strong>&nbsp;I am ugly!</strong></em></div>
+    </div>
+<div id="comments-bar" class="comments-bar alpha60">
+    	<summary> {n} Comments so far </summary>
+		<ul class="comments">
+    	<li class="comment">
+        	<div class="entry-author"><a href="#AuthorContact">{$Author}</a> said</div>  
+                <p class="entry-content">OK, so I was just kidding in the summary, this is just another annoying comment</p>
+                            <div class="entry-datetime">on {$date} at {$time}</div>
+         </li>
+             	<li class="comment">{$Author} said 
+        	
+                <p>I was kidding yet again, am I annoying you?</p>
+            
+            on {$date} at {$time}
+         </li>
+   	</ul>
+    </div>
+</div>
+<div class="entry-preview alpha60">
+	<!--Content title -->
+    	<h3 class="entry-title">It is a Content Preview box</h3>
+		<br/>	
+        <div class="content-summary">
+			Message in a bottle.
+        </div>
+        <div class="comments">
+        	<a href="#">{n} comments</a>
+        </div>
+</div>
+<div class="entry-preview alpha60">
+	<!--Content title -->
+    	<h3 class="entry-title">It is a Content Preview box</h3>
+		<br/>	
+        <div class="content-summary">
+			Message in a bottle.
+        </div>
+        <div class="comments">
+        	<a href="#">{n} comments</a>
+        </div>
+</div>
+<div class="entry-preview alpha60">
+	<!--Content title -->
+    	<h3 class="entry-title">It is a Content Preview box</h3>
+		<br/>	
+        <div class="content-summary">
+			Message in a bottle.
+        </div>
+        <div class="comments">
+        	<a href="#">{n} comments</a>
+        </div>
+</div>
+</div>
+<!-- Content Part End -->
+
+<!-- Right Slider Start -->
+<div class="slider right">
+	<div class="about">
+		<h2>Just business!</h2>
+		<p>lorem ipsum</p>
+		<p>lorem ipsum</p>
+		<p>lorem ipsum</p>
+		<p>lorem ipsum</p>
+    </div>
+</div>
+<!-- Right Slider End -->
+
+<!-- Footer Start -->
+<div class="footer">
+<emp>Aesthetic Blasphemy (c) 2013 All content under Creative Commons License and Source Code under GPL</emp>
+</div>
+<!-- Footer End -->
+</body>
+</html>

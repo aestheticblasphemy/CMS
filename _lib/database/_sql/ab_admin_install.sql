@@ -1,0 +1,2 @@
+CREATE DATABASE db_aesthetic_blasphemy;
+use	db_aesthetic_blasphemy;

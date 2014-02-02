@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<node label = "Welcome" page = "main.php">
+</node>
+<node label = "Getting Started" dir="getting_started" parent="true">
+    <node label = "Welcome!" page = "welcome.php"></node>
+    <node label = "phpinfo();" page = "phpinfo.php"></node>
+</node>
+<node label = "Scripting Basics" dir="scripting_basics" parent="true">
+    <node label = "Embedding PHP in HTML" page = "embedding.php"></node>
+    <node label = "Basic Language Syntax" page = "language_syntax.php"></node>
+    <node label = "Declaring &amp; Assigning Variables" page = "variables.php"></node>
+    <node label = "The Echo Function" page = "echo.php"></node>
+    <node label = "The Print Function" page = "print.php"></node>
+    <node label = "Basic Types and Constants" page = "basic_types.php"></node>
+    <node label = "isset(), empty(), and unset()" page = "isset_empty_unset.php"></node>
+    <node label = "NULL, is_null()" page = "null_is_null.php"></node>
+</node>
+<node label = "Flow Control &amp; Looping" dir="flow_control_and_looping" parent="true">
+    <node label = "If-Else Statements" page = "if_else.php"></node>
+    <node label = "The Switch Statement" page = "switch_statement.php"></node>
+    <node label = "For Loops" page = "for_loops.php"></node>
+    <node label = "While and Do-While" page = "while_loops.php"></node>
+    <node label = "Break and Continue" page = "break_and_continue.php"></node>
+    <node label = "Beware of Infinite Loops" page = "infinite_loops.php"></node>
+</node>
+<node label = "Working with Arrays" dir="working_with_arrays" parent="true">
+    <node label = "Creating &amp; Using Arrays" page = "creating_using_arrays.php"></node>
+    <node label = "Manipulating Arrays" page = "manipulating_arrays.php"></node>
+    <node label = "Iteration Loops" page = "iteration_loops.php"></node>
+    <node label = "Built-in PHP Arrays" page = "built-in_arrays.php"></node>
+    <node label = "Multidimensional Arrays" page = "multidimensional_arrays.php"></node>
+    <node label = "Flipping Arrays" page = "flipping_arrays.php"></node>
+    <node label = "Reversing Arrays" page = "reversing_arrays.php"></node>
+    <node label = "Shuffling Arrays" page = "shuffling_arrays.php"></node>
+</node>
+<node label = "Working with Strings" dir="working_with_strings" parent="true">
+    <node label = "Strings and strlen" page = "working_with_strings.php"></node>
+    <node label = "String &amp; Char Indexes" page = "string_char_indexes.php"></node>
+    <node label = "Comparing Strings" page = "comparing_strings.php"></node>
+    <node label = "Substrings" page = "substrings.php"></node>
+    <node label = "String Case Functions" page = "string_case_functions.php"></node>
+    <node label = "Find and Replace" page = "find_and_replace.php"></node>
+    <node label = "Cleaning Up Strings" page = "cleaning_up_strings.php"></node>
+</node>
+<node label = "More About Strings" dir="more_about_strings" parent="true">
+    <node label = "Escaping Functions" page="escaping_strings.php"></node>
+    <node label = "Parsing Strings" page="parsing_strings.php"></node>
+    <node label = "Formatting Output" page="formating_output.php"></node>
+    <node label = "Regular Expressions" page="regular_expressions.php"></node>
+</node>
+<node label = "Working with Web Forms" dir="web_forms" parent="true">
+    <node label = "Working with Forms" page="web_forms.php"></node>
+    <node label = "Processing GET" page="processing_get.php"></node>
+    <node label = "Processing POST" page="processing_post.php"></node>
+    <node label = "Server Variables" page="server_variables.php"></node>
+    <node label = "CheckBox and Radio Buttons" page="checkboxes_radio_buttons.php"></node>
+    <node label = "Selection Lists" page="selection_lists.php"></node>
+    <node label = "Hidden Fields" page="hidden_fields.php"></node>
+    <node label = "Form Field Validations" page="form_validations.php"></node>
+</node>
+<node label = "Functions" dir="functions" parent="true">
+    <node label = "Using &amp; Defining Functions" page="user_functions.php"></node>
+    <node label = "Variable Parameter Lists" page="variable_parameters.php"></node>
+    <node label = "Global Variables" page="global_variables.php"></node>
+    <node label = "The Include Statement" page="include_statements.php"></node>
+    <node label = "The Require Statement" page="require_statements.php"></node>
+</node>
+<node label = "Working with Databases" dir="working_with_databases" parent="true">
+    <node label = "Connecting to Data" page="connecting_to_data.php"></node>
+    <node label = "Retrieving Data" page="retrieving_data.php"></node>
+    <node label = "Data Error Handling" page="data_error_handling.php"></node>
+    <node label = "Manipulating Data" page="manipulating_data.php"></node>
+</node>
+<node label = "Web Site Interactivity" dir="web_site_interactivity" parent="true">
+    <node label = "Page Redirection" page="page_redirection.php"></node>
+    <node label = "Email and PHP" page="email_and__php.php"></node>
+    <node label = "User Registration" page="user_registration.php"></node>
+</node>
+<node label = "Session State" dir="session_state" parent="true">
+    <node label = "PHP Sessions" page="session_superglobal.php"></node>
+    <node label = "Registering Session Variables" page="register_session_vars.php"></node>
+    <node label = "Reading Sessions" page="session_read.php"></node>
+    <node label = "Setting Sessions" page="session_set.php"></node>
+    <node label = "Destroying Sessions" page="session_destroy.php"></node>
+    <node label = "A Login System" page="login_system.php"></node>
+    <node label = "Working with Cookies" page="setting_cookies.php"></node>
+    <node label = "Deleting Cookies" page="delete_cookies.php"></node>
+</node>
+</node>

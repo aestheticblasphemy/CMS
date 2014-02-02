@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE usrname = '' AND passwd =''
+
+SELECT * FROM users WHERE usrname = '\' OR 1=1 #' AND passwd ='' 

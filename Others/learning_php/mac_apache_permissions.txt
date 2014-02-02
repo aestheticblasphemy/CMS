@@ -1,0 +1,2 @@
+sudo chmod -R 775 ./Sites
+sudo chmod -R 755 /Library/WebServer/Documents

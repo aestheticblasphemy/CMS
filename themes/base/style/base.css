@@ -1,0 +1,349 @@
+/*General*/
+
+/* hrefs do not underline. Overriding browser defaults */
+a {
+	text-decoration:none;
+}
+
+/* changing the look of link when mouse hovers over it */
+a:hover {
+	color: #687FC0;
+}
+
+
+/*Login and Networking bar fixed on top of the screen*/
+.sticky {
+	position:fixed;
+	left:1px;
+	right:1px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+	background-color:grey;
+	overflow:auto;
+	border-radius:7px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	opacity:.8;
+	z-index:5;
+}
+.sticky .networking {
+	float:left;
+	position:relative;
+}
+
+.networking ul{
+    padding:0.25em 0em;
+    margin:0;
+    overflow:auto;
+}
+
+ul.social li{
+	list-style:none;
+	display:inline;
+        float:left;
+        padding: 0em .1em .1em .1em;
+}
+/*
+ul.social li a.twitter { background-image: url(/themes/base/images/twitter-logo.png);
+                         background-size: cover;
+                         background-repeat: no-repeat;}	
+
+ul.social li a.facebook { background-image: url(/themes/base/images/facebook-logo.png);
+                         background-size: cover;
+                         background-repeat: no-repeat; }
+
+ul.social li a.google { background-image: url(/themes/base/images/google-logo.png);
+                         background-size: cover;
+                         background-repeat: no-repeat; }
+
+ul.social li a.linkedin { background-image: url(/themes/base/images/linkedin-logo.png);
+                         background-size: cover;
+                         background-repeat: no-repeat; }
+
+*/
+
+.social li a img {
+    max-height: 3em;
+    size:auto;
+}
+.login {
+	position:relative;
+	float:right;
+	padding:0.25em 0.5em;
+	font-size:12px;
+	overflow:auto;
+}
+
+.sticky .login ul li {
+    display: inline;
+    list-style: none;
+}
+
+/* Styling properties for the header section*/
+.header {
+	background-color:white;
+	clear:both;
+	overflow:auto;
+	position:relative;
+	top:1.2em;
+	font-family:"Monotype Corsiva";
+}
+
+.header h3 {
+	font-family:"Courier New", Courier, monospace;
+	font-style:normal;
+}
+
+.navbar {
+	background-color:white;
+	color:black;
+	padding: .20em 0;
+	border-radius:7px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+        position: relative;
+        width:100%;
+        display:inline-block;
+}
+
+.navigation li{
+	list-style:none;
+	display:inline;
+	padding-right:.35em;
+        z-index: 5;
+        background: rgba(150 15 15 .6);
+        color:black;
+        border-radius: 9px;
+        -moz-border-radius:9px;
+	-webkit-border-radius:9px;
+        text-decoration-color: black;
+}
+.embossed {
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -2px 0 rgba(0,0,0,.25), inset 0 -3px 0 rgba(255,255,255,.2), 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -2px 0 rgba(0,0,0,.25), inset 0 -3px 0 rgba(255,255,255,.2), 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.5), inset 0 -2px 0 rgba(0,0,0,.25), inset 0 -3px 0 rgba(255,255,255,.2), 0 1px 0 rgba(0,0,0,.1);
+}
+
+
+/* Pagination Slideshow*/
+.slideshow-wrapper {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	padding:1em 0em;
+	background-color:#191919;
+	border-radius:7px;
+        clear:left;
+}
+
+.slideshow {
+	/*height:440px;*/
+	position:relative;
+	overflow:hidden;
+	padding-top: 30%;
+}
+
+.slideshow .slides {
+    position:absolute;	
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.slideshow img.slides {
+	height:auto;
+}
+
+.slideshow .prev,
+.slideshow .next{
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms;
+}
+
+.slideshow .prev:hover,
+.slideshow .next:hover{
+  opacity: 1;
+}
+
+.slideshow .next{
+  left: auto;
+  right: 0;
+}
+
+.slideshow .slide-controls .pager_list{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 4;
+}
+
+.slideshow .pager_list li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #fff;
+  opacity: .7;
+  text-indent: 999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+.slideshow .pager_list li:hover,
+.slideshow .pager_list li.active{
+  opacity: 1;
+}
+
+/* Content Portion*/
+.content {
+	position:relative;
+	background:none;
+	overflow:auto;	
+	padding-top:1%;
+	/*width:100%;*/
+	margin: 0 auto;
+	/*float:left;*/
+}
+
+.entry {
+	position:relative;
+	width:100%;
+}
+
+h3.entry-title {
+	font-size:20px;
+	display:inline;
+	font-color:#231CAE;
+	text-align:left;
+}
+
+.entry-datetime {
+	font-size:12px;
+	display:inline;
+	font-color:#231CAE;
+	text-align:left;
+	font-style:italic;
+}
+
+.entry-content {
+	border-radius:9px;
+	font-size:16px;
+	color:#390;
+}
+
+.entry-author {
+	display:block;
+	font-style:italic;
+}
+
+.alpha60 {
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0) transparent;
+/* RGBa with 0.6 opacity */
+background: rgba(0, 0, 0, 0.1);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+/*Pagination*/
+.content_navigation {
+    clear: both;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+}
+ul.pagination li{
+    list-style: none;
+    display: inline;
+    padding: 1em 1em;
+}
+
+ul.pagination .previous_post {
+    float:left;
+}
+ul.pagination .next_post {
+    float:right;
+}
+/* Sliders */
+
+.slider {
+	position:relative;
+	overflow:auto;
+	width:28%;
+	padding-left:1%;
+	background:none;
+}
+
+.right{
+	float:right;
+	right:0;
+	margin:5em 0em 1em -24em;
+	padding-top:10px;
+}
+
+.about {
+	postition:absolute;
+	background-color:grey;
+	border-radius:9px;	
+	padding:inherit;
+}
+
+/*Footer */
+.footer {
+	position:relative;
+	bottom:1em;
+	padding-top:2em;
+	clear:both;
+	width:100%;
+	border-radius:9px;
+	background:none;
+	font-style:italic;
+	text-align:center;
+}
+
+/* Entry Preview */
+.entry-preview {
+	width:25em;
+	height:30em;
+	border:1px black solid;
+	float:left;
+	border-radius:16px;
+	padding:1%;
+	margin: .1% .1%;
+	display:inline-block;
+	position:relative;
+	overflow:auto;
+		
+}
+
+/* Footer */
+.footer {
+    	clear:both;
+	position:relative;
+	bottom:1em;
+	padding-top:2em;
+	padding-bottom:1em;
+	font-size:12px;
+	text-align:center;
+        font-family: arial,"Monotype Corsiva",cursive;
+}

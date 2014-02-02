@@ -1,0 +1,23 @@
+
+/*Comments Section */
+.comments-bar {
+	border:1px solid black;
+	border-radius: 9px;
+	background-color:#666;
+	overflow:auto;
+        bottom:.5em;
+        right:.5em;
+        display:block;
+        padding:0.5em 1em;
+}
+
+.comments-bar ul {
+	list-style:none;
+}
+
+.comment {
+	border:1px dashed black;	
+	margin-bottom:.5em;
+	margin-right:.5em;
+}
+

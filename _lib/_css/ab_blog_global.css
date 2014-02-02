@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body tag style */
+body {
+	margin:0;
+	font: 10px Verdana, Geneva, sans-serif, Arial, Helvetica;
+	color: #000000;
+	background-color: #9F9;
+}
+
+/* Table elements */
+td, th, .bod, font {
+	font: 10px Verdana, Geneva, sans-serif, Arial, Helvetica;
+	color: #000000;
+	position: relative;
+	height: 50%;
+	width: 100%;
+}
+
+/* bold and strong do the same thing */
+b, strong {
+	font-weight:bold;
+}
+
+/* hrefs do not underline. Overriding browser defaults */
+a {
+	font: 10px Verdana, Geneva, sans-serif, Arial;
+	color: #485C98;
+	text-decoration:none;
+}
+
+/* changing the look of link when mouse hovers over it */
+a:hover {
+	color: #687FC0;
+}
+
+/*Custom Elements*/
+/*Logos */
+
+.logo {
+	font:15px Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	width: 122px;
+	height:19px;
+	background-color: #22397A;
+	position:absolute;
+	top: 15px;
+	left: 0px;
+	z-index:10;
+}
+
+/*Headers*/
+.header {
+	font: 12pc Verdana, Geneva, sans-serif, Arial;
+	color: #485E9C;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #999;
+}
+
+/*Reading Section. THis is where posts appear */
+.section {
+	font: 11px Verdana, Geneva, sans-serif, Arial;
+	color: #000000;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/*Copy of blog post */
+.copy {
+	font: 10px Verdana, Geneva, sans-serif, Arial;
+	color: #000000;
+	padding-bottom:5px;
+}
+
+/*Banner advertisements if any */
+.banner {
+	padding-top:20px;
+	padding-bottom:3px;
+	clear:both;
+	position:relative;
+	height:200px;
+	text-align:center;
+	border:1px dashed #000 ;
+}
+
+/* Separator Ruler Line */
+.dotrule {
+	background-image: url(../../_img/bg_15dot_rule.gif);
+}
+
+/* Error Style for highlighting errors */
+.error {
+	padding-top: 15px;
+	color:#990000
+}
+
+/*Paging graphics */
+.paging {
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.site_title {
+	font-size: large;
+}
+.login {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #00F;
+	background-attachment: scroll;
+	background-color: #CCC;
+	background-repeat: repeat;
+}
+
+.heading {
+	background-color: #999;
+}
+
+.content {
+	background-color:#36C;
+}
+
+.footer {
+	background-color:#6F6;
+	clear:both;
+	position:relative;
+	bottom:1em;
+	padding-top:1em;
+	padding-bottom:1em;
+	font-family:"Monotype Corsiva";
+	font-size:18px;
+	text-align:center
+}
+
+
+.content_entry {
+    border: solid black;
+    border-color:#000000;
+    border-width:thin;
+}
+
+.page {
+	width: 90%;
+	margin:0 auto;
+	background:white;
+	overflow:auto;
+}
+
+.header-bar {
+	color: #479D2F;
+	background:#C0C0C0;
+	height:15em;
+	position:relative;
+}
+
+.title-bar {
+	position:absolute;
+	left:5px;
+	top:10px;
+	clear:right;
+}
+.site-title {
+	font-family: "Monotype Corsiva";
+	font-style: italic;
+	font-weight: bold;
+	color: #2C9831;
+	font-size:34px;
+	position:relative;
+}
+.site-tagline {
+	font-family: "Courier New", Courier, monospace;
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+		position:relative;
+}
+.header-login-bar {
+	color: #009;
+	position:absolute;
+	right:0;
+	top:10px;
+	clear:left;
+}
+.header-login-form {
+	font-family:"Monotype Corsiva";
+}
+
+.header-logged-in {
+	font-family:"Monotype Corsiva";
+	font-size:18px;
+}
+.navbar {
+	position:relative;
+	padding-top:1em;
+	padding-bottom:2em;
+	background:#009;
+	z-index:4;
+}
+
+#navitems li {
+	border-right:1px solid #FFF;
+	padding-right:.5em;
+	padding-left: .5px;
+	font-size: 18px;
+	display:inline;
+	list-style:none;
+	font-family:"Comic Sans MS", cursive;
+}
+
+.content-bar {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:medium;
+	float:left;
+	padding-left:1em;
+	padding-bottom:1.5em;
+	padding-right:30em;
+	background:#CFC;
+	position:relative;
+	margin:0 auto;
+	border-bottom:1px dashed black;
+}
+.sidebar {
+	background-color:#99C;
+	margin:3em 0em 1em -30em;
+	width:25em;
+	float: right;
+	position:relative;
+	border-left:1px dashed black;
+}
+
+h3 {
+	background-color:#CCC;
+	display:compact;	
+	font-size:24px;
+}
+
+.comments-bar {
+	position:relative;
+	background:#9C6;
+	margin:1em;
+}
+.comments li {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-style:oblique;
+	list-style:none;
+}
